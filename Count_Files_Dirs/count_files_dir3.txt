@@ -1,0 +1,8 @@
+
+echo "use bellow commands to count the number of files and directories"
+
+echo " $tree | tail -1 | awk -F ',' '{print $1}' "
+echo No. of Direcories
+
+echo " $tree | tail -1 | awk -F ',' '{print $2}' "
+echo No. of Files
